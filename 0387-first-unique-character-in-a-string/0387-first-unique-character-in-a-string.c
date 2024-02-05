@@ -1,7 +1,7 @@
 
 // Solved in 6min 40sec
 int firstUniqChar(char* s) {
-    char* cs = calloc(sizeof(char), 26);
+    short* cs = calloc(sizeof(short), 26);
 
     int cl = strlen(s);
     // finding all single chars
